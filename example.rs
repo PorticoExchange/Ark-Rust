@@ -74,12 +74,12 @@ use ldk::ln::msgs::IGNORABLE_MSG_REPLY_SHORT_CHANNEL_IDS_END_QUERY_SHORT_CHANNEL
 use ldk::ln::msgs::IGNORABLE_MSG_REPLY_SHORT_CHANNEL_IDS_END_QUERY_SHORT_CHANNEL_IDS;
 
 fn main() {
-    // Setup LDK, BDK, and other dependencies
-    // ...
-    // ...
 
-    // In this example, we assume the user already has an on-chain UTXO
+    //Fuction CTV 
+    fn ctv(on_onchainutxo: &OnChainUTXO)
 
+
+        
     // User wants to lift their UTXO for a virtual UTXO (1:1 ratio)
     let virtual_utxo = lift_to_virtual_utxo(&user_on_chain_utxo);
 
