@@ -1,0 +1,3 @@
+[dependencies]
+ldk = "0.0.116"
+bdk = "1.0.0"
