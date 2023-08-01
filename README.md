@@ -1,6 +1,6 @@
-# Ark Rust
+# Ark Rust 
 
-Example and Experimental for Ark layer
+Experimental for Ark layer
 
 ## About this Alpha test
 
