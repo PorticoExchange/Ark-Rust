@@ -5,6 +5,9 @@ use bitcoin::Script;
 use std::collections::HashMap;
 use std::sync::Arc;
 
+enum BitcoinNetwork {
+    Bitcoin: Testnet
+}
 // Define the ATLC Covenant type
 enum ATLCType {
     BIP118,
